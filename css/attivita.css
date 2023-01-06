@@ -1,0 +1,39 @@
+.titolo {
+    font-size: larger;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.pulsante-sezione {
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    transition: 0.4s;
+}
+
+.pulsante-sezione:hover {
+    color: black;
+    transition: 0.4s
+}
+
+.pulsante-sezione.active, .pulsante-sezione:hover {
+    background-color: #ddd;
+}
+
+.contenuto {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+.contenuto.show {
+    display: block !important;
+}

@@ -1,0 +1,15 @@
+.titolo {
+    font-size: larger;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+}
+
+.mappa {
+    text-align: center;
+}

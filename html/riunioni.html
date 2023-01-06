@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>Riunioni</title>
+
+        <meta name="description" content="Istituto Superiore Polo Tecnologico Ind. ed Artig. Avanzato - Lamezia Terme">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="istituto, superiore, polo, tecnologico, polo tecnologico, polo tecnologico lamezia terme, polo tecnologico lamezia, polo lamezia terme">
+
+        <link rel="stylesheet" type="text/css" href="../css/base.css">
+        <link rel="stylesheet" type="text/css" href="../css/riunioni.css">
+
+        <link rel="icon" type="image/x-icon" href="../immagini/favicon.ico">
+    </head>
+
+    <body>
+        <div class="barratitolo">
+            <a href="index.html"><img class="immagine-intestazione" src="../immagini/banner_larger.png"></a>
+        </div>
+
+        <div class="bloccomenu">
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Scuola</button>
+                    <div class="dropdown-content">
+                        <a href="datiscuola.html">Dati scuola</a>
+                        <a href="dovesiamo.html">Dove siamo</a>
+                        <a href="presentazione.html">Presentazione</a>
+                        <a href="organigramma.html">Organigramma</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Attività</button>
+                    <div class="dropdown-content">
+                        <a href="attivita.html">Attività disponibili</a>
+                        <a href="iscrizioneattivita.html">Iscrizione attività</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Comunicazioni</button>
+                    <div class="dropdown-content">
+                        <a href="riunioni.html">Riunioni</a>
+                        <a href="contattaci.html">Invia un feedback</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Servizi online</button>
+                    <div class="dropdown-content">
+                        <a href="https://www.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE docenti</a>
+                        <a href="https://family.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE famiglie</a>
+                        <a href="https://www.trasparenzascuole.it/Public/APDPublic_ExtV2.aspx?CF=92037760797">Albo pretorio</a>
+                        <a href="https://www.istruzione.it/pagoinrete/">Pago in rete</a>
+                        <a href="orario.html">Orario scolastico</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="corpo">
+            <p class="titolo">Riunioni</p>
+
+            <p class="sottotitolo">Previste</p>
+
+            <center>
+                <div class="riunione">
+                    <p class="titolo-riunione">Riunione dipartimento di elettronica</p>
+
+                    <hr class="linea-riunione">
+
+                    <p class="descrizione-riunione">Martedi 17 Gennaio 2023, dalle 17:00-18:00, si terrà la riunione del dipartimento di elettronica</p>
+                    
+                    <hr class="linea-riunione">
+
+                    <p class="orario-riunione">17/01/2023 17:00-18:00</p>
+                </div>
+
+                <div class="riunione">
+                    <p class="titolo-riunione">Collegio docenti</p>
+
+                    <hr class="linea-riunione">
+
+                    <p class="descrizione-riunione">Venerdi 20 Gennaio 2023, dalle 16:30 alle 18:00, si terrà il collegio docenti</p>
+                    
+                    <hr class="linea-riunione">
+
+                    <p class="orario-riunione">20/01/2023 16:30-18:00</p>
+                </div>
+
+                <div class="riunione">
+                    <p class="titolo-riunione">Incontro scuola-famiglia</p>
+
+                    <hr class="linea-riunione">
+
+                    <p class="descrizione-riunione">Giovedi 2 Febbraio 2023, dalle 15:30 alle 19:00, si terrà l'incontro scuola-famiglia, tutti i professori saranno dislocati nei vari edifici, come indicato dalla tabella riassuntiva posta all'ingresso della sede centrale del Polo Tecnologico</p>
+
+                    <hr class="linea-riunione">
+
+                    <p class="orario-riunione">02/02/2023 15:30-19:00</p>
+                </div>
+            </center>
+
+            <hr class="linea">
+
+            <p class="sottotitolo">Pregresse</p>
+
+            <center>
+                <button class="pulsante-sezione">Riunione dipartimento di informatica</button>
+                <div class="contenuto">
+                    <p>
+                        Giorno 10/12/2022 si terrà la riunione del dipartimento di informatica, saranno coinvolti i seguenti docenti:
+                        <ul>
+                            <li>prof. Bennardo Roberto</li>
+                            <li>prof. Macrina Stefano</li>
+                            <li>prof.ssa Osso Rosa</li>
+                            <li>prof. Fiumara Davide</li>
+                            <li>prof. Bergantin Fulvio</li>
+                            <li>prof. Vescio Francesco G.</li>
+                            <li>prof.ssa Valente Orsola</li>
+                        </ul>
+                    </p>
+                </div>
+            </center>
+        </div>
+
+        <div class="footer">
+            <a href="" class="link-footer">Termini di servizio</a>
+            |
+            <a href="datiscuola.html" class="link-footer">Contatti</a>
+            |
+            <a href="contattaci.html" class="link-footer">Invia un feedback</a>
+        </div>
+
+        <script>
+            var sezioni = document.getElementsByClassName("pulsante-sezione");
+            var i;
+            
+            for (i = 0; i < sezioni.length; i++) {
+                sezioni[i].onclick = function(){
+                    this.classList.toggle("active");
+                    this.nextElementSibling.classList.toggle("show");
+                }
+            }
+        </script>
+
+        <script src="../javascript/controllo.js"></script>
+    </body>
+</html>

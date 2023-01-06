@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>Iscrizione attività</title>
+
+        <meta name="description" content="Istituto Superiore Polo Tecnologico Ind. ed Artig. Avanzato - Lamezia Terme">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="istituto, superiore, polo, tecnologico, polo tecnologico, polo tecnologico lamezia terme, polo tecnologico lamezia, polo lamezia terme">
+
+        <link rel="stylesheet" type="text/css" href="../css/base.css">
+        <link rel="stylesheet" type="text/css" href="../css/iscrizioneattivita.css">
+
+        <link rel="icon" type="image/x-icon" href="../immagini/favicon.ico">
+    </head>
+
+    <body>
+        <div class="barratitolo">
+            <a href="index.html"><img class="immagine-intestazione" src="../immagini/banner_larger.png"></a>
+        </div>
+
+        <div class="bloccomenu">
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Scuola</button>
+                    <div class="dropdown-content">
+                        <a href="datiscuola.html">Dati scuola</a>
+                        <a href="dovesiamo.html">Dove siamo</a>
+                        <a href="presentazione.html">Presentazione</a>
+                        <a href="organigramma.html">Organigramma</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Attività</button>
+                    <div class="dropdown-content">
+                        <a href="attivita.html">Attività disponibili</a>
+                        <a href="iscrizioneattivita.html">Iscrizione attività</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Comunicazioni</button>
+                    <div class="dropdown-content">
+                        <a href="riunioni.html">Riunioni</a>
+                        <a href="contattaci.html">Invia un feedback</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Servizi online</button>
+                    <div class="dropdown-content">
+                        <a href="https://www.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE docenti</a>
+                        <a href="https://family.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE famiglie</a>
+                        <a href="https://www.trasparenzascuole.it/Public/APDPublic_ExtV2.aspx?CF=92037760797">Albo pretorio</a>
+                        <a href="https://www.istruzione.it/pagoinrete/">Pago in rete</a>
+                        <a href="orario.html">Orario scolastico</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="corpo">
+            <p class="titolo">Iscrizione alle attività</p>
+
+            <form method="POST" id="iscrizione">
+                <table border="0" align="center">
+                    <tbody>
+                        <tr>
+                            <td>Attività</td>
+                            <td>
+                                <input list="attivita" name="attivita" id="nomeattivita" size="50" required class="elenco-attivita" placeholder="Inserisci l'attività da svolgere">
+                                <datalist id="attivita">
+                                    <option>Corso di robotica</option>
+                                    <option>Olimpiadi di Informatica</option>
+                                    <option>Trinity B1</option>
+                                    <option>Trinity B2</option>
+                                    <option>Mad for Science</option>
+                                    <option>PON di tinkering</option>
+                                </datalist>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Cognome</td>
+                            <td><input type="text" size="50" maxlength="50" name="cognome" id="cognome" class="casella-testo" required placeholder="Inserisci il tuo cognome"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Nome</td>
+                            <td><input type="text" size="50" maxlength="50" name="nome" class="casella-testo" required placeholder="Inserisci il tuo nome"></td>
+                        </tr>
+
+                        <tr height="80">
+                            <td>Maggiorenne</td>
+                            <td>
+                                <div class="toggle-radio">
+                                    <input type="radio" name="maggiorenne" value="si" id="si">
+                                    <input type="radio" name="maggiorenne" value="no" id="no" checked>
+                                    <div class="switch">
+                                        <label for="si">Si</label>
+                                        <label for="no">No</label>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr height="70">
+                            <td>Foto del documento d'identità</td>
+                            <td><button><input type="file" name="documento" class="pulsante-upload-file" required></button></td>
+                        </tr>
+
+                        <tr align="center">
+                            <td colspan="2">
+                                <input type="submit" value="Invia modulo" class="pulsante-invio">
+                                &emsp;
+                                <input type="button" value="Resetta modulo" class="pulsante-reset" onclick="resetmodulo()">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+        <div class="footer">
+            <a href="" class="link-footer">Termini di servizio</a>
+            |
+            <a href="datiscuola.html" class="link-footer">Contatti</a>
+            |
+            <a href="contattaci.html" class="link-footer">Invia un feedback</a>
+        </div>
+
+        <script>
+            let url = self.location.href;
+
+            if (url.includes("?")) {
+                let att = url.substring((url.indexOf("?") + 5));
+
+                if (att == "oii") {
+                    document.getElementById("nomeattivita").value = "Olimpiadi di Informatica";
+                    document.getElementById("cognome").focus();
+                }
+            }
+            else {
+                document.getElementById("nomeattivita").focus();
+            }
+        </script>
+
+        <script>
+            function resetmodulo() {
+                if (confirm("Sei sicuro di voler eliminare i dati dal modulo?")) {
+                    document.getElementById("iscrizione").reset();
+                }
+            }
+        </script>
+
+        <script src="../javascript/controllo.js"></script>
+    </body>
+</html>
