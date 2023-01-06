@@ -1,40 +1,4 @@
-<html>
-    <head>
-        <title>Relazione</title>
-
-        <meta name="description" content="Istituto Superiore Polo Tecnologico Ind. ed Artig. Avanzato - Lamezia Terme">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="keywords" content="istituto, superiore, polo, tecnologico, polo tecnologico, polo tecnologico lamezia terme, polo tecnologico lamezia, polo lamezia terme">
-
-        <link rel="icon" type="image/x-icon" href="immagini/favicon.ico">
-    </head>
-
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif
-        }
-
-        ul {
-            list-style-image: url(immagini/punto-elenco.jpg);
-        }
-
-        .sitemap {
-            width: 100%;
-        }
-
-        a {
-            text-decoration: none;
-            color: #2F7FEF;
-        }
-
-        .divisore {
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
-    </style>
-
-    <body>
-        <center>
+<center>
             <a name="inizio">
                 <h1>Relazione</h1>
             </a>
@@ -142,5 +106,3 @@
             <p>
             </p>
         </div>
-    </body>
-</html>
