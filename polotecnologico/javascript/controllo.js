@@ -4,8 +4,11 @@ var larghezza = window.screen.width;
 
 var img = document.getElementById("img");
 
+var homepage = document.getElementById("homepage");
+
 if (larghezza < 200) {
     img.style.display = "none";
+    homepage.style.display = "block";
 }
 
 if (larghezza > 200 && larghezza < 500) {
