@@ -95,6 +95,10 @@ Impostazioni per eventuale titolo testuale
     display: block;
 }
 
+#homepage {
+    display: none;
+}
+
 /*Impostazione del corpo della pagina*/
 .corpo {
     background-color: white;
