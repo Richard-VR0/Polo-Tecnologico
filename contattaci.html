@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>Feedback</title>
+
+        <meta name="description" content="Istituto Superiore Polo Tecnologico Ind. ed Artig. Avanzato - Lamezia Terme">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="istituto, superiore, polo, tecnologico, polo tecnologico, polo tecnologico lamezia terme, polo tecnologico lamezia, polo lamezia terme">
+
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/contattaci.css">
+
+        <link rel="icon" type="image/x-icon" href="immagini/icona.ico">
+    </head>
+
+    <body>
+        <div class="barratitolo">
+            <a href="index.html"><img class="immagine-intestazione" src="immagini/banner_larger.png"></a>
+        </div>
+
+        <div class="bloccomenu">
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Scuola</button>
+                    <div class="dropdown-content">
+                        <a href="datiscuola.html">Dati scuola</a>
+                        <a href="dovesiamo.html">Dove siamo</a>
+                        <a href="presentazione.html">Presentazione</a>
+                        <a href="organigramma.html">Organigramma</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Attività</button>
+                    <div class="dropdown-content">
+                        <a href="attivita.html">Attività disponibili</a>
+                        <a href="iscrizioneattivita.html">Iscrizione attività</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Comunicazioni</button>
+                    <div class="dropdown-content">
+                        <a href="riunioni.html">Riunioni</a>
+                        <a href="contattaci.html">Invia un feedback</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Servizi online</button>
+                    <div class="dropdown-content">
+                        <a href="https://www.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE docenti</a>
+                        <a href="https://family.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE famiglie</a>
+                        <a href="https://www.trasparenzascuole.it/Public/APDPublic_ExtV2.aspx?CF=92037760797">Albo pretorio</a>
+                        <a href="https://www.istruzione.it/pagoinrete/">Pago in rete</a>
+                        <a href="orario.html">Orario scolastico</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="corpo">
+            <p class="titolo">Lascia un feedback</p>
+
+            <form method="GET" id="feedback">
+                <fieldset class="fieldset">
+                    <legend>Seganala un problema:</legend>
+
+                    <table align="center">
+                        <tbody>
+                            <tr height="65px">
+                                <td>Email</td>
+    
+                                <td>
+                                    <input type="email" name="email" id="email" size="50" class="email-contatto" required placeholder="Inserisci l'email di contatto">
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td colspan="2">
+                                    <textarea name="feedback" rows="10" class="area-di-testo" required placeholder="Lascia il tuo feedback..."></textarea>
+                                </td>
+                            </tr>
+    
+                            <tr height="65px">
+                                <td>Sei un utente esterno?</td>
+    
+                                <td align="center">
+                                    <input type="radio" class="radio" name="esterno" value="si" checked>
+                                    <label for="radio">SI</label>
+                                    &emsp;
+                                    <input type="radio" class="radio" name="esterno" value="no">
+                                    <label for="radio">NO</label>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <input type="submit" value="Invia feedback" class="pulsante-invio">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="footer">
+            <a href="file/informative/termini_di_servizio.pdf" class="link-footer" target="_blank">Termini di servizio</a>
+            |
+            <a href="datiscuola.html" class="link-footer">Contatti</a>
+            |
+            <a href="contattaci.html" class="link-footer">Invia un feedback</a>
+        </div>
+
+        <script>
+            document.getElementById("email").focus();
+        </script>
+
+        <script src="javascript/controllo.js"></script>
+    </body>
+</html>

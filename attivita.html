@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Attività</title>
+
+        <meta name="description" content="Istituto Superiore Polo Tecnologico Ind. ed Artig. Avanzato - Lamezia Terme">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="istituto, superiore, polo, tecnologico, polo tecnologico, polo tecnologico lamezia terme, polo tecnologico lamezia, polo lamezia terme">
+
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/attivita.css">
+
+        <link rel="icon" type="image/x-icon" href="immagini/icona.ico">
+    </head>
+
+    <body>
+        <div class="barratitolo">
+            <a href="index.html"><img class="immagine-intestazione" src="immagini/banner_larger.png"></a>
+        </div>
+
+        <div class="bloccomenu">
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Scuola</button>
+                    <div class="dropdown-content">
+                        <a href="datiscuola.html">Dati scuola</a>
+                        <a href="dovesiamo.html">Dove siamo</a>
+                        <a href="presentazione.html">Presentazione</a>
+                        <a href="organigramma.html">Organigramma</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Attività</button>
+                    <div class="dropdown-content">
+                        <a href="attivita.html">Attività disponibili</a>
+                        <a href="iscrizioneattivita.html">Iscrizione attività</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Comunicazioni</button>
+                    <div class="dropdown-content">
+                        <a href="riunioni.html">Riunioni</a>
+                        <a href="contattaci.html">Invia un feedback</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbutton">Servizi online</button>
+                    <div class="dropdown-content">
+                        <a href="https://www.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE docenti</a>
+                        <a href="https://family.sissiweb.it/SwStart.aspx?Customer_ID=92037760797">RE famiglie</a>
+                        <a href="https://www.trasparenzascuole.it/Public/APDPublic_ExtV2.aspx?CF=92037760797">Albo pretorio</a>
+                        <a href="https://www.istruzione.it/pagoinrete/">Pago in rete</a>
+                        <a href="orario.html">Orario scolastico</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="corpo">
+            <p class="titolo">Attività</p>
+
+            <button class="pulsante-sezione">Corso di robotica</button>
+            <div class="contenuto">
+                <p>
+                    Corso di robotica per le classi 4&deg; e 5&deg;
+                    <br>
+                    Il corso sarà tenuto dai professori degli indirizzi Informatica ed Elettronica
+                </p>
+
+                <a href="file/circolari/attivita/corso_di_robotica.pdf" target="_blank">Prot N&deg;0002443</a>
+            </div>
+
+            <button class="pulsante-sezione">OII 2023</button>
+            <div class="contenuto">
+                <p>
+                    Olimpiadi Italiane di Informatica
+                    <br>
+                    L'iscrizione è aperta per le classi 1&deg;, 2&deg;, 3&deg; e 4&deg;
+                </p>
+
+                <a href="file/circolari/attivita/oii2023.pdf" target="_blank">Prot N&deg;0002444</a>
+            </div>
+
+            <button class="pulsante-sezione">Trinity B1/B2</button>
+            <div class="contenuto">
+                <p>
+                    Iscrizioni aperte dal 15/12/2022 al 20/12/2022
+                    <br>
+                    Il progetto prevede il conseguimento dell'attestato Trinity B2
+                </p>
+
+                <a href="file/circolari/attivita/trinity.pdf" target="_blank">Prot N&deg;0017637</a>
+            </div>
+
+            <button class="pulsante-sezione">Progetto Mad for Science</button>
+            <div class="contenuto">
+                <p>
+                    Le adesioni al progetto sono aperte dal 11/11/2022 al 01/12/2022
+                    <br>
+                    Sono richiesti studenti dei corsi di Informatica, Chimica, CAT e Grafica
+                </p>
+
+                <a href="file/circolari/attivita/mad_for_science.pdf" target="_blank">Prot N&deg;0013231</a>
+            </div>
+
+            <button class="pulsante-sezione">PON pomeridiano di tinkering</button>
+            <div class="contenuto">
+                <p>
+                    Progetto PON che si terrà ogni mercoledi a partire dal 12/01/2023
+                </p>
+
+                <a href="file/circolari/attivita/pon_tinkering.pdf" target="_blank">Prot N&deg;0017051</a>
+            </div>
+
+            <br><br>            
+        </div>
+
+        <div class="footer">
+            <a href="file/informative/termini_di_servizio.pdf" class="link-footer" target="_blank">Termini di servizio</a>
+            |
+            <a href="datiscuola.html" class="link-footer">Contatti</a>
+            |
+            <a href="contattaci.html" class="link-footer">Invia un feedback</a>
+        </div>
+
+        <script>
+            var sezioni = document.getElementsByClassName("pulsante-sezione");
+            var i;
+            
+            for (i = 0; i < sezioni.length; i++) {
+                sezioni[i].onclick = function(){
+                    this.classList.toggle("active");
+                    this.nextElementSibling.classList.toggle("show");
+                }
+            }
+        </script>
+
+        <script src="javascript/controllo.js"></script>
+    </body>
+</html>

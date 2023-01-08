@@ -1,0 +1,83 @@
+.container-foto {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.amazon-foto {
+    width: 100%;
+}
+
+.descrizione-foto {
+    font-size: medium;
+    color: rgb(74, 74, 74);
+}
+
+.titolo-pagina {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.foto-album {
+    text-align: center;
+    width: 50%;
+    display: inline-grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
+.foto-esterno {
+    width: 100%;
+    display: inline-block;
+}
+
+.foto {
+    width: 100%;
+}
+
+.pulsantep-foto {
+    display: inline-block;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pulsantep-foto:hover {
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+.pulsantem-foto {
+    display: inline-block;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pulsantem-foto:hover {
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+.news {
+    width: 60%;
+    height: fit-content;
+    /*background-color: rgb(242, 241, 241);*/
+    background-color: rgb(192, 192, 192);
+    margin-bottom: 30px;
+}
+
+.titolo-news{
+    font-size: large;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.descrizione-news {
+    font-size: medium;
+    padding-bottom: 15px;
+}
+
+.linea-news {
+    width: 80%;
+}
