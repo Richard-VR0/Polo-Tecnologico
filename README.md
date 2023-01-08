@@ -119,7 +119,7 @@ Nella parte inferiore della pagina è presente un footer, dove sono presenti:
 </ul>
 
 # Aree del sito
-<img src="immagini/sitemap.PNG">
+<img src="polotecnologico/immagini/sitemap.PNG">
 
 # Pubblicazione
 
