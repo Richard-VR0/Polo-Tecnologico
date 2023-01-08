@@ -1,0 +1,145 @@
+.titolo {
+    font-size: larger;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.table {
+    font-size: medium;
+}
+
+.elenco-attivita {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.casella-testo {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.toggle-radio {
+    margin-bottom: 40px;
+}
+
+.switch {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background: #00bc9c;
+    transition: all 0.2s ease;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.switch span {
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    margin: -2px 0px 0px -4px;
+    background: #fff;
+    display: block;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease;
+}
+
+.switch span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    margin-top: -8px;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.switch label {
+    cursor: pointer;
+    color: rgba(0,0,0,0.2);
+    width: 60px;
+    line-height: 50px;
+    transition: all 0.2s ease;
+}
+
+label[for=si] {
+    position: absolute;
+    left: 0px;
+    height: 20px;
+}
+
+label[for=no] {
+    position: absolute;
+    right: 0px;
+}
+
+#no:checked ~ .switch {
+    background: #eb4f37;
+}
+
+#no:checked ~ .switch span {
+    background: #fff;
+    margin-left: -8px;
+}
+
+#no:checked ~ .switch span:after {
+    background: #fff;
+    height: 20px;
+    margin-top: -8px;
+    margin-left: 8px;
+}
+
+#si:checked ~ .switch label[for=si] {
+    color: #fff;
+}
+
+#no:checked ~ .switch label[for=no] {
+    color: #fff;
+}
+
+.pulsante-upload-file {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.pulsante-invio {
+    font-size: small;
+    color: white;
+    background-color: #2929cd;
+    border: 1px solid #2424a9;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    transition: 1s;
+}
+
+.pulsante-invio:hover {
+    background-color: #20207f;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.pulsante-reset {
+    font-size: small;
+    color: white;
+    background-color: #eb4f37;
+    border: 1px solid #ca422e;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    transition: 1s;
+}
+
+.pulsante-reset:hover {
+    background-color: #b63926;
+    cursor: pointer;
+    transition: 1s;
+}

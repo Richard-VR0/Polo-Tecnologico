@@ -1,0 +1,47 @@
+.titolo {
+    font-size: larger;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.fieldset {
+    width: 50%;
+    margin-left: 24%;
+    margin-right: 24%;
+    border: 1px solid grey;
+}
+
+table {
+    font-size: medium;
+}
+
+.email-contatto {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.area-di-testo {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.radio {
+    cursor: pointer;
+}
+
+.pulsante-invio {
+    background-color: #2929CD;
+    border: #2929A4;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.pulsante-invio:hover {
+    background-color: #252584;
+    cursor: pointer;
+    transition: 1s;
+}

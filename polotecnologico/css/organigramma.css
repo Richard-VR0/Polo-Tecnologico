@@ -1,0 +1,23 @@
+.titolo {
+    font-size: larger;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    list-style-image: url(../immagini/punto-elenco.jpg);
+    list-style-position: inside;
+}
+
+.ul2 {
+    padding-bottom: 20px;
+}
+
+.ul3 {
+    padding-bottom: 5px;
+}
+
+li {
+    padding-bottom: 10px;
+}
