@@ -1,0 +1,21 @@
+.titolo {
+    font-size: larger;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+}
+
+td {
+    width: 20%;
+    height: 200px;
+}
+
+.foto {
+    width: 80%;
+    border: 6px solid #2c2b2b;
+}

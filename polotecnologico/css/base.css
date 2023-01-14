@@ -52,6 +52,12 @@ Impostazioni per eventuale titolo testuale
     display: inline-block;
     background-color: rgb(41, 41, 205);
     border-radius: 10px;
+    transition: 0.6s;
+}
+
+.menu:hover {
+    background-color: rgb(25, 25, 184);
+    transition: 0.6s;
 }
 
 /*Menù a cascata*/
@@ -71,11 +77,12 @@ Impostazioni per eventuale titolo testuale
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #bdc5d1;
     min-width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 10px;
+    width: 20%;
 }
 
 .dropdown-content a {
@@ -87,7 +94,7 @@ Impostazioni per eventuale titolo testuale
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #9facc1;
     border-radius: 10px;
 }
 
@@ -96,12 +103,12 @@ Impostazioni per eventuale titolo testuale
 }
 
 #homepage {
-    display: none;
+    display: block;
 }
 
 /*Impostazione del corpo della pagina*/
 .corpo {
-    background-color: white;
+    background-color: WHITE;
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 10px;

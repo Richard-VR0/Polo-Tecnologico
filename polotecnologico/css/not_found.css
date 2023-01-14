@@ -1,6 +1,29 @@
+@font-face {
+    font-family: err404;
+    src:url(font/error404.ttf);
+}
+
 .titolo {
-    font-size: larger;
+    font-family: err404;
+    font-size: xx-large;
     text-align: center;
-    color: black;
+    color: rgb(45, 43, 43);
     font-weight: bold;
+}
+
+.foto-error404 {
+    width: 40%;
+}
+
+.link {
+    font-family: err404;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #2f2f2f;
+    border-radius: 10px;
 }
