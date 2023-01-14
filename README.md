@@ -63,6 +63,7 @@ Una volta chiari tutti i servizi da implementare si è proceduto col definire il
     <li>Pagina di contatto</li>
     <li>Contatti e informazioni scuola</li>
     <li>Link alle varie piattaforme digitali</li>
+    <li>Galleria fotografica</li>
   </ul>
 </ul>
 
@@ -107,6 +108,7 @@ I menù sono divisi per categoria:
     <li>Albo pretorio online</li>
     <li>Piattaforma pago in rete</li>
     <li>Orario scolastico</li>
+    <li>Galleria foto</li>
   </ul>
 </ul>
 
